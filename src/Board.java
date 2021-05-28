@@ -13,7 +13,7 @@ public class Board {
     Board(){
         for(int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
-                grid[i][j][0] = game4[i][j];
+                grid[i][j][0] = game5[i][j];
                 grid[i][j][10] = 9;
                 for (int z = 1; z < 10; z++) {
                     grid[i][j][z] = z;
